@@ -1,0 +1,243 @@
+body {
+	min-width: 1950px;
+	margin: 0;
+	padding: 10px 20px 80px 20px;
+	background: skyblue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin: 18px 0 30px;
+	color: #05365c;
+}
+
+.elemento {
+	width: 100px;
+	height: 100px;
+	border: dashed black 2px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	padding: 4px 6px;
+}
+
+.boton {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.atomico {
+	font-size: 15px;
+	line-height: 1.1;
+	text-align: left;
+	margin: 0;
+	position: absolute;
+	top: 4px;
+	left: 6px;
+	font-weight: 600;
+}
+
+.masa {
+	font-size: 13px;
+	line-height: 1.1;
+	text-align: right;
+	margin: 0;
+	position: absolute;
+	top: 5px;
+	right: 6px;
+	font-weight: 600;
+}
+
+.simbolo {
+	font-size: 25px;
+	line-height: 1;
+	margin: 30px 0 2px 0;
+	font-weight: 700;
+}
+
+.nombre {
+	font-size: 13px;
+	line-height: 1.1;
+	margin: 0;
+}
+
+.info {
+	background: #d3992a;
+}
+
+#eq0{ position: absolute; top: 100px;  left: 900px;  }
+#eq1{ position: absolute; top: 100px;  left: 100px;  }
+#eq2{ position: absolute; top: 100px;  left: 1800px; }
+#eq3{ position: absolute; top: 200px;  left: 100px;  }
+#eq4{ position: absolute; top: 200px;  left: 200px;  }
+#eq5{ position: absolute; top: 200px;  left: 1300px; }
+#eq6{ position: absolute; top: 200px;  left: 1400px; }
+#eq7{ position: absolute; top: 200px;  left: 1500px; }
+#eq8{ position: absolute; top: 200px;  left: 1600px; }
+#eq9{ position: absolute; top: 200px;  left: 1700px; }
+#eq10{ position: absolute; top: 200px; left: 1800px; }
+#eq11{ position: absolute; top: 300px; left: 100px;  }
+#eq12{ position: absolute; top: 300px; left: 200px;  }
+#eq13{ position: absolute; top: 300px; left: 1300px; }
+#eq14{ position: absolute; top: 300px; left: 1400px; }
+#eq15{ position: absolute; top: 300px; left: 1500px; }
+#eq16{ position: absolute; top: 300px; left: 1600px; }
+#eq17{ position: absolute; top: 300px; left: 1700px; }
+#eq18{ position: absolute; top: 300px; left: 1800px; }
+#eq19{ position: absolute; top: 400px; left: 100px;  }
+#eq20{ position: absolute; top: 400px; left: 200px;  }
+#eq21{ position: absolute; top: 400px; left: 300px;  }
+#eq22{ position: absolute; top: 400px; left: 400px;  }
+#eq23{ position: absolute; top: 400px; left: 500px;  }
+#eq24{ position: absolute; top: 400px; left: 600px;  }
+#eq25{ position: absolute; top: 400px; left: 700px;  }
+#eq26{ position: absolute; top: 400px; left: 800px;  }
+#eq27{ position: absolute; top: 400px; left: 900px;  }
+#eq28{ position: absolute; top: 400px; left: 1000px; }
+#eq29{ position: absolute; top: 400px; left: 1100px; }
+#eq30{ position: absolute; top: 400px; left: 1200px; }
+#eq31{ position: absolute; top: 400px; left: 1300px; }
+#eq32{ position: absolute; top: 400px; left: 1400px; }
+#eq33{ position: absolute; top: 400px; left: 1500px; }
+#eq34{ position: absolute; top: 400px; left: 1600px; }
+#eq35{ position: absolute; top: 400px; left: 1700px; }
+#eq36{ position: absolute; top: 400px; left: 1800px; }
+#eq37{ position: absolute; top: 500px; left: 100px;  }
+#eq38{ position: absolute; top: 500px; left: 200px;  }
+#eq39{ position: absolute; top: 500px; left: 300px;  }
+#eq40{ position: absolute; top: 500px; left: 400px;  }
+#eq41{ position: absolute; top: 500px; left: 500px;  }
+#eq42{ position: absolute; top: 500px; left: 600px;  }
+#eq43{ position: absolute; top: 500px; left: 700px;  }
+#eq44{ position: absolute; top: 500px; left: 800px;  }
+#eq45{ position: absolute; top: 500px; left: 900px;  }
+#eq46{ position: absolute; top: 500px; left: 1000px; }
+#eq47{ position: absolute; top: 500px; left: 1100px; }
+#eq48{ position: absolute; top: 500px; left: 1200px; }
+#eq49{ position: absolute; top: 500px; left: 1300px; }
+#eq50{ position: absolute; top: 500px; left: 1400px; }
+#eq51{ position: absolute; top: 500px; left: 1500px; }
+#eq52{ position: absolute; top: 500px; left: 1600px; }
+#eq53{ position: absolute; top: 500px; left: 1700px; }
+#eq54{ position: absolute; top: 500px; left: 1800px; }
+#eq55{ position: absolute; top: 600px; left: 100px;  }
+#eq56{ position: absolute; top: 600px; left: 200px;  }
+#eq72{ position: absolute; top: 600px; left: 400px;  }
+#eq73{ position: absolute; top: 600px; left: 500px;  }
+#eq74{ position: absolute; top: 600px; left: 600px;  }
+#eq75{ position: absolute; top: 600px; left: 700px;  }
+#eq76{ position: absolute; top: 600px; left: 800px;  }
+#eq77{ position: absolute; top: 600px; left: 900px;  }
+#eq78{ position: absolute; top: 600px; left: 1000px; }
+#eq79{ position: absolute; top: 600px; left: 1100px; }
+#eq80{ position: absolute; top: 600px; left: 1200px; }
+#eq81{ position: absolute; top: 600px; left: 1300px; }
+#eq82{ position: absolute; top: 600px; left: 1400px; }
+#eq83{ position: absolute; top: 600px; left: 1500px; }
+#eq84{ position: absolute; top: 600px; left: 1600px; }
+#eq85{ position: absolute; top: 600px; left: 1700px; }
+#eq86{ position: absolute; top: 600px; left: 1800px; }
+#eq87{ position: absolute; top: 700px; left: 100px;  }
+#eq88{ position: absolute; top: 700px; left: 200px;  }
+#eq104{ position: absolute; top: 700px; left: 400px; }
+#eq105{ position: absolute; top: 700px; left: 500px; }
+#eq106{ position: absolute; top: 700px; left: 600px; }
+#eq107{ position: absolute; top: 700px; left: 700px; }
+#eq108{ position: absolute; top: 700px; left: 800px; }
+#eq109{ position: absolute; top: 700px; left: 900px; }
+#eq110{ position: absolute; top: 700px; left: 1000px;}
+#eq111{ position: absolute; top: 700px; left: 1100px;}
+#eq112{ position: absolute; top: 700px; left: 1200px;}
+#eq113{ position: absolute; top: 700px; left: 1300px;}
+#eq114{ position: absolute; top: 700px; left: 1400px;}
+#eq115{ position: absolute; top: 700px; left: 1500px;}
+#eq116{ position: absolute; top: 700px; left: 1600px;}
+#eq117{ position: absolute; top: 700px; left: 1700px;}
+#eq118{ position: absolute; top: 700px; left: 1800px;}
+
+.gas{
+	background: #0cc;
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+.gas:hover{
+	background: #6ff;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+}
+
+.alcalino{
+	background: #24df1d;
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+.alcalino:hover{
+	background: #fb7;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+}
+
+.alcalinoterreo{
+	background: #9dd95a;
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+.alcalinoterreo:hover{
+	background: #caf07a;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+}
+
+.transicion{
+	background: #5588cf;
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+.transicion:hover{
+	background: #54adf2;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+}
+
+.terreo{
+	background: #c3530d;
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+.terreo:hover{
+	background: #dfa01d;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+}
+
+.terreos{
+	background: #5588cf;
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+.terreos:hover{
+	background: #54adf2;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+}
+
+.carbonoideos{
+	background: #8ec30d;
+	-webkit-transition-duration: 0.9s;
+	transition-duration: 0.9s;
+}
+.carbonoideos:hover{
+	background: #abea12;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 10;
+}
